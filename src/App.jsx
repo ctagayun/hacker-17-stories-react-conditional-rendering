@@ -118,7 +118,7 @@ import * as React from 'react';
          'stories'with empty array and simulate fetching these stories async. */
       const [stories, setStories] = React.useState([]);
 
-      /* Step 1.a: Add a new useEffect for the "stories" stateful value and 
+      /* Step 1.a: Add a new useEffect for the "stories" state and 
       call the function and resolve the returned promise */
        React.useEffect(() => {
         //remember the first paramter to useEffect is a function
